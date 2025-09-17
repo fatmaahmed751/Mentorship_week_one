@@ -17,5 +17,5 @@ every class is only responsible for representing the status of this fields.
 
 ## Diagram
 
-![Task Week One Diagram]
+![Task Week One Diagram](assets/images/task_week_one_digram.svg)
 
