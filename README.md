@@ -14,3 +14,7 @@ every class is only responsible for representing the status of this fields.
 1-orderManager depend on orderRepository
 --using instance of orderRepository private to prevent any outside editing
 --using this instance in the constructor applied Dependency Injection
+
+#screenshot
+![Uploading digram-task-week-one.png…]()
+
