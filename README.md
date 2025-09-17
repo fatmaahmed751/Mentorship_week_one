@@ -1,16 +1,20 @@
 # mentorship_week_one
 
-A new Flutter project.
+In This Task I applied OOP Principles with SOLID by:
+** SRP in
+1-orderModel => "Encapsulation" to set and get the private field.
+2-customerModel
+3-drinkModel 
+every class is only responsible for representing the status of this fields.
 
-## Getting Started
+** Abstract + (Polymorphism + OCP) in
+1-Class Drink + Subclasses To be  Open for extension, closed for modification
 
-This project is a starting point for a Flutter application.
+** Dependency Inversion Principle (DIP) + Encapsulation + Dependency Injection + Abstract in
+1-orderManager depend on orderRepository
+--using instance of orderRepository private to prevent any outside editing
+--using this instance in the constructor applied Dependency Injection
 
-A few resources to get you started if this is your first Flutter project:
+## Diagram
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Task Week One Diagram](assets/images/task_week_one_digram.svg)
